@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="@drawable/my_custom_layout">
+
+    <TextView
+        android:id="@+id/tv_titleConfession"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/tv_contentConfession"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+    <Button
+        android:id="@+id/btn_deleteConfession"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:drawableLeft="@android:drawable/ic_delete"
+        android:background="@drawable/btn_delete_custom_layout"/>
+    <Button
+        android:id="@+id/btn_updateConfession"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:drawableRight="@android:drawable/ic_menu_edit"
+        android:background="@drawable/btn_update_custom_layout"/>
+
+</LinearLayout>
+
+

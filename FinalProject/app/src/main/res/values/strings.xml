@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TiMT_Confessions</string>
+    <string name="title_slash">TiMT Confessions</string>
+    <string name="title_main">TiMT Confessions</string>
+
+    //Button
+    <string name="btn_show_addChoices">Add a confession</string>
+    <string name="btn_add_newConfession">Save</string>
+    <string name="btn_update_confession">Save Changes</string>
+    <string name="btn_cancel_update_confession">Cancel</string>
+
+</resources>

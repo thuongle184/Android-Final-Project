@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTextActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_titleConfession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Title"
+        android:fontFamily="Georgia"/>
+
+    <EditText
+        android:id="@+id/edt_contentConfession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Tell me your problem ..."
+        android:fontFamily="Georgia"/>
+
+    <Button
+        android:id="@+id/btn_AddConfession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="Georgia"
+        android:layout_marginTop="10dp"
+        android:text="@string/btn_add_newConfession"
+        android:background="#FFACDC"/>
+
+</LinearLayout>

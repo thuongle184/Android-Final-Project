@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailConfessionActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_createdDateConfession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#1B3CB3"
+        android:textSize="25dp"
+        android:fontFamily="Georgia"
+        android:background="@drawable/my_custom_layout"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Created on "
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/tv_detailTitleConfession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#EC0505"
+        android:textSize="35dp"
+        android:fontFamily="Georgia"
+        android:background="@drawable/my_custom_layout"/>
+
+    <TextView
+        android:id="@+id/tv_detailContentConfession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#1B3CB3"
+        android:textSize="25dp"
+        android:fontFamily="Georgia"
+        android:background="@drawable/my_custom_layout"/>
+
+    <Button
+        android:id="@+id/btn_updateConfession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@android:drawable/ic_menu_edit"
+        android:background="@drawable/btn_update_custom_layout"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="right"
+        android:text="Change"/>
+
+</LinearLayout>
